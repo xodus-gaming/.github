@@ -17,6 +17,9 @@ A fork of [ColinFinck/ntfs](https://github.com/ColinFinck/ntfs), adapted to supp
 ### [xgameruntime-docs](https://github.com/xodus-gaming/xgameruntime-docs)
 Reverse-engineering documentation for `xgameruntime.dll` internals - a key component of the Xbox PC runtime that games depend on.
 
+### [wine](https://github.com/xodus-gaming/wine)
+A fork of Proton's wine with additional patches enabling integration with Xodus and support for starting executables from memfd files.
+
 ## 🎮 What games are supported?
 
 Xodus targets games distributed in **GDK + MSIXVC format**. Support for the broader Xbox PC catalog is the goal. Some titles (e.g. *Gears of War 4*) remain unsupported for now due to format differences.
