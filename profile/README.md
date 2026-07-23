@@ -21,7 +21,7 @@ Reverse-engineering documentation for `xgameruntime.dll` internals - a key compo
 A fork of Proton's wine with additional patches enabling integration with Xodus and support for starting executables from memfd files.
 
 ### [xal-rs](https://github.com/xodus-gaming/xal-rs)
-A for of [OpenXbox/xal-rs](https://github.com/OpenXbox/xal-rs), extended with additional structs, fields and auth utils.
+A fork of [OpenXbox/xal-rs](https://github.com/OpenXbox/xal-rs), extended with additional structs, fields and auth utils.
 
 ## 🤝 Get Involved
 
