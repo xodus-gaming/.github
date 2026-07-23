@@ -1,4 +1,4 @@
-# Xodus
+<p align="center"><img width="384" src="https://github.com/xodus-gaming/xodus/blob/main/assets/FullText/FullText452.png?raw=true" /></p>
 
 > **Bringing Xbox PC games to Linux and macOS.**
 
@@ -20,12 +20,8 @@ Reverse-engineering documentation for `xgameruntime.dll` internals - a key compo
 ### [wine](https://github.com/xodus-gaming/wine)
 A fork of Proton's wine with additional patches enabling integration with Xodus and support for starting executables from memfd files.
 
-## 🎮 What games are supported?
-
-Xodus targets games distributed in **GDK + MSIXVC format**. Support for the broader Xbox PC catalog is the goal. Some titles (e.g. *Gears of War 4*) remain unsupported for now due to format differences.
-
-Full Wine/Proton-level Xbox Services support is still being developed, so end-to-end gameplay isn't available yet - but the project is maturing quickly.
-
+### [xal-rs](https://github.com/xodus-gaming/xal-rs)
+A for of [OpenXbox/xal-rs](https://github.com/OpenXbox/xal-rs), extended with additional structs, fields and auth utils.
 
 ## 🤝 Get Involved
 
