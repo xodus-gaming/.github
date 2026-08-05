@@ -8,27 +8,18 @@ This project is not affiliated nor endorsed by Microsoft. Use at your own risk.
 
 ## 📦 Repositories
 
-### [xodus](https://github.com/xodus-gaming/xodus)
-The core project - written in Rust. Handles the full pipeline from Xbox authentication, token exchange through to package downloading and decryption.
-
-### [ntfs](https://github.com/xodus-gaming/ntfs)
-A fork of [ColinFinck/ntfs](https://github.com/ColinFinck/ntfs), adapted to support MSIXVC container parsing requirements.
-
-### [xgameruntime-docs](https://github.com/xodus-gaming/xgameruntime-docs)
-Reverse-engineering documentation for `xgameruntime.dll` internals - a key component of the Xbox PC runtime that games depend on.
-
-### [wine](https://github.com/xodus-gaming/wine)
-A fork of Proton's wine with additional patches enabling integration with Xodus and support for starting executables from memfd files.
-
-### [xal-rs](https://github.com/xodus-gaming/xal-rs)
-A fork of [OpenXbox/xal-rs](https://github.com/OpenXbox/xal-rs), extended with additional structs, fields and auth utils.
+| Repo | Description |
+|---|---|
+| [xodus](https://github.com/xodus-gaming/xodus) | Core project (Rust) - auth, token exchange, package download and license acquisition. |
+| [xgameruntime](https://github.com/xodus-gaming/xgameruntime) | Implementation of `xgameruntime.dll`, the Xbox PC runtime component games depend on. |
+| [xgameruntime-docs](https://github.com/xodus-gaming/xgameruntime-docs) | Clean-room reverse-engineering docs for `xgameruntime.dll` internals. |
+| [xal-rs](https://github.com/xodus-gaming/xal-rs) | Fork of [OpenXbox/xal-rs](https://github.com/OpenXbox/xal-rs) - Xbox auth library for Windows-style SISU auth. |
+| [ntfs](https://github.com/xodus-gaming/ntfs) | Fork of [ColinFinck/ntfs](https://github.com/ColinFinck/ntfs), adapted for MSIXVC container parsing. |
+| [wine](https://github.com/xodus-gaming/wine) | Fork of [ValveSoftware/wine](https://github.com/ValveSoftware/wine) with patches for Xodus integration. |
+| [Proton](https://github.com/xodus-gaming/Proton) | Fork of [ValveSoftware/Proton](https://github.com/ValveSoftware/Proton) bundling the Xodus-patched Wine. |
 
 ## 🤝 Get Involved
 
 - Join the conversation on **[Discord](https://discord.gg/ZG774FK4tq)**
 - Check out open **[issues](https://github.com/xodus-gaming/xodus/issues)** and **[pull requests](https://github.com/xodus-gaming/xodus/pulls)**
 - Browse the code and documentation across our repos above
-
----
-
-*Licensed under GPL-3.0*
