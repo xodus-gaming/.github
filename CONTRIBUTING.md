@@ -27,7 +27,7 @@ Below you'll find a list of topics to consider before you submit your first cont
 We recognize LLMs (commonly called "AI" as speech mannerism) becoming part of the modern developer experience. However, given the sensitiveness of the project, and the main axis being directed on reverse engineering, we are forced to impose certain rules and limits as to where LLMs are acceptable, especially repositories that have a chance of bringing the code upstream, where similar rules are already in place.
 
 - Reverse engineering efforts driven by LLM are not allowed
-- LLM assisted code will be rejected from most repositories - see [Wine Clean Room Guidelines](gitlab.winehq.org/wine/wine/-/wikis/Clean-Room-Guidelines/)
+- LLM assisted code will be rejected from most repositories - see [Wine Clean Room Guidelines](https://gitlab.winehq.org/wine/wine/-/wikis/Clean-Room-Guidelines/)
   - With the exception of parts of `xodus-gaming/xodus` that don't interact with Microsoft or XBOX services. Code quality and performance improvements not impacting api layer logic are welcome.
 - Ensure any comments in code are where actually needed, e.g counter intuitive approach to a problem. Avoid X not Y patterns
 - Please do not write tests to a point that it becomes irrelevant. Stay minimalistic, and only cover what's needed
